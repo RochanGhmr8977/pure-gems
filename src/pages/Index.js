@@ -26,17 +26,15 @@ function Index(){
 
 		    <div className="collapse navbar-collapse" id="main-navbar">
 			  <ul className="nav navbar-nav">
-		        <li className="active"><a className="smoothScroll" href="#home">Home <span className="sr-only">(current)</span></a></li>
-		        <li><a className="smoothScroll" href="#services">Services</a></li>
-		        <li><a className="smoothScroll" href="#portfolio">Portfolio</a></li>
+		        <li className="active"><a className="smoothScroll" href="home">Home <span className="sr-only">(current)</span></a></li>
+		        <li><a className="smoothScroll" href="#Services">Services</a></li>
 		      	<li id="brand-desktop">
-					<a className="navbar-brand smoothScroll" href="#home">
-						<img alt="Molly" src="assests/img/svg/PureGemsWlogo.png"/>
+					<a className="navbar-brand smoothScroll" href="home">
+						<img alt="puregems" src="assests/img/svg/PureGemsWlogo.png"/>
 					</a>
 		      	</li>
-		        <li><a className="smoothScroll" href="about">About us</a></li>
-		        <li><a className="smoothScroll" href="blog">Blog</a></li>
-		        <li><a className="smoothScroll" href="contact">Contact</a></li>
+		        <li><a className="smoothScroll" href="#about">About us</a></li>
+		        <li><a className="smoothScroll" href="#contact">Contact</a></li>
 		      </ul>
 		    </div>
 		  </div>
@@ -113,164 +111,94 @@ function Index(){
 
 		</section>
 
-		<section id="services">
-
-			<div className="container">
-
-				<div className="row">
-					
-					<div className="col-md-8 col-md-offset-2">
-
-						<div className="title-content">
-							
-							<h2 className="section-title">Services</h2>
-
-							<p>Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
-
-						</div>
-
-					</div>
-
-				</div>
-
-				<div className="services-container">
-
-					<div className="line"></div>
-
-					<div className="row">
-						
-						<div className="col-md-3 col-sm-6">
-
-							<div className="service">
-								
-								<figure>
-									<img src="assests/img/svg/services/web_design.svg" alt="Web design services"/>
-									<figcaption><h4 className="service-title">Our Services</h4></figcaption>
-								</figure>
-
-								<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.</p>
-
-							</div>
-
-						</div>
-
-						<div className="col-md-3 col-sm-6">
-
-							<div className="service">
-								
-								<figure>
-									<img src="assests/img/svg/services/graphic_design.svg" alt="Graphic design services"/>
-									<figcaption><h4 className="service-title">Quality products</h4></figcaption>
-								</figure>
-
-								<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.</p>
-
-							</div>
-
-						</div>
-
-						<div className="col-md-3 col-sm-6">
-
-							<div className="service">
-								
-								<figure>
-									<img src="assests/img/svg/services/photography.svg" alt="Photography services"/>
-									<figcaption><h4 className="service-title">Delivery Management</h4></figcaption>
-								</figure>
-
-								<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.</p>
-
-							</div>
-
-						</div>
-
-						<div className="col-md-3 col-sm-6">
-
-							<div className="service">
-								
-								<figure>
-									<img src="assests/img/svg/services/development.svg" alt="Development services"/>
-									<figcaption><h4 className="service-title">Sales Growth </h4></figcaption>
-								</figure>
-
-								<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.</p>
-
-							</div>
-
-						</div>
-
-					</div> 
-
-				</div> 
-				
-			</div> 
-
-			<div className="we-make-section">
-
-				<div className="overlay"></div>
-				
-				<div className="container">
-					
-					<div className="row reorder-sm">
-						
-						<div className="col-md-5">
-
-							<div className="img-container">
-								<img src="assests/img/svg/phones.svg" alt="Phones image"/>
-							</div>
-							
-						</div> 
-
-						<div className="col-md-7">
-
-							<div className="features-container">
-
-								<h3>We Create our own brand</h3>
-
-								<p>Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
-
-								<ul className="features-list">
-									<li>Modern Household Products </li>
-									<li>Service Oriented</li>
-									<li>Multinational Customers</li>
-									<li>Products for better life</li>
-								</ul>
-
-							</div> 
-							
-						</div>
-
-					</div> 
-
-				</div>
-
-			</div> 
-
-			<div className="services-cta-container">
-
-				<a href="#" className="btn btn-default white-yellow">Get Started</a>
-
-			</div>
-
-		</section>
-
 		<section id="portfolio">
 
 			<div className="container">
 
+			
 				<div className="row">
 					
 					<div className="col-md-8 col-md-offset-2">
 
 						<div className="title-content">
 							
-							<h2 className="section-title">Portfolio</h2>
+							<h2 className="section-title">Our Services</h2>
 
 							<p>Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
 
 						</div>
+						<div className="services-container">
+
+<div className="line"></div>
+
+<div className="row">
+	
+	<div className="col-md-3 col-sm-6">
+
+		<div className="service">
+			
+			<figure>
+				<img src="assests/img/svg/services/web_design.svg" alt="Web design services"/>
+				<figcaption><h4 className="service-title">Our Services</h4></figcaption>
+			</figure>
+
+			<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.</p>
+
+		</div>
+
+	</div>
+
+	<div className="col-md-3 col-sm-6">
+
+		<div className="service">
+			
+			<figure>
+				<img src="assests/img/svg/services/graphic_design.svg" alt="Graphic design services"/>
+				<figcaption><h4 className="service-title">Quality products</h4></figcaption>
+			</figure>
+
+			<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.</p>
+
+		</div>
+
+	</div>
+
+	<div className="col-md-3 col-sm-6">
+
+		<div className="service">
+			
+			<figure>
+				<img src="assests/img/svg/services/photography.svg" alt="Photography services"/>
+				<figcaption><h4 className="service-title">Delivery Management</h4></figcaption>
+			</figure>
+
+			<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.</p>
+
+		</div>
+
+	</div>
+
+	<div className="col-md-3 col-sm-6">
+
+		<div className="service">
+			
+			<figure>
+				<img src="assests/img/svg/services/development.svg" alt="Development services"/>
+				<figcaption><h4 className="service-title">Sales Growth </h4></figcaption>
+			</figure>
+
+			<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.</p>
+
+		</div>
+
+	</div>
+
+</div> 
+
+</div> 
 
 					</div>
+					
 
 				</div> 
 
@@ -282,7 +210,6 @@ function Index(){
 							<li><button className="filter" type="button" data-mixitup-control data-filter=".web_design">Products</button></li>
 							<li><button className="filter" type="button" data-mixitup-control data-filter=".graphic_design">Warehouse Storage</button></li>
 							<li><button className="filter" type="button" data-mixitup-control data-filter=".photography">Customer satisfaction</button></li>
-							<li><button className="filter" type="button" data-mixitup-control data-filter=".apps">Apps</button></li>
 						</ul>
 
 					</nav> 
@@ -292,42 +219,27 @@ function Index(){
 				<div className="row">
 
 				    <div id="portfolio-grid" className="portfolio-grid">
-				    	
-						<figure className="grid-item mix all graphic_design">
-							<img src="assests/img/portfolio/placeholder_370_x_300.jpg" height="370" width="300" alt="Placeholder portfolio image"/>
+					
+					<figure className="grid-item mix all graphic_design">
+							<img src="assests/img/Products/honey.jpg" height="370" width="300" alt="Placeholder Portfolio image"/>
 						</figure>
-
+						
 						<figure className="grid-item mix all web_design">
-							<img src="assests/img/portfolio/placeholder_370_x_3002.jpg" height="370" width="300"  alt="Placeholder portfolio image"/>
+							<img src="assests/img/Products/jam.jpg" height="370" width="300"  alt="Placeholder Portfolio image"/>
 						</figure>
-
-						<figure className="grid-item mix all apps">
-							<img src="assests/img/portfolio/placeholder_370_x_3003.jpg" height="370" width="300"  alt="Placeholder portfolio image"/>
-						</figure>
-
+						
 						<figure className="grid-item mix all photography">
-							<img src="assests/img/portfolio/placeholder_370_x_300.jpg" height="370" width="300"  alt="Placeholder portfolio image"/>
+							<img src="assests/img/Products/cookingoil.jpg" height="370" width="300"  alt="Placeholder Portfolio image"/>
 						</figure>
-
+						
 						<figure className="grid-item mix all web_design">
-							<img src="assests/img/portfolio/placeholder_370_x_300.jpg" height="370" width="300"  alt="Placeholder portfolio image"/>
+							<img src="assests/img/Products/oliveoil.jpg" height="370" width="300"  alt="Placeholder Portfolio image"/>
 						</figure>
-
-						<figure className="grid-item mix all apps">
-							<img src="assests/img/portfolio/placeholder_370_x_300.jpg" height="370" width="300"  alt="Placeholder portfolio image"/>
-						</figure>
-
+						
 						<figure className="grid-item mix all graphic_design">
-							<img src="assests/img/portfolio/placeholder_370_x_300.jpg"height="370" width="300"  alt="Placeholder portfolio image"/>
+							<img src="assests/img/Products/mayo.jpg"height="370" width="300"  alt="Placeholder Portfolio image"/>
 						</figure>
 
-						<figure className="grid-item mix all web_design">
-							<img src="assests/img/portfolio/placeholder_370_x_300.jpg" height="370" width="300"  alt="Placeholder portfolio image"/>
-						</figure>
-
-						<figure className="grid-item mix all photography">
-							<img src="assests/img/portfolio/placeholder_370_x_300.jpg" height="370" width="300"  alt="Placeholder portfolio image"/>
-						</figure>
 
 						<figure className="gap"></figure>
 
